@@ -4,8 +4,8 @@
 using namespace std;
 
 int matriz[11][11];
-int filas = 0;
-int columnas = 0;
+int filas;
+int columnas;
 int i;
 int j;
 
@@ -26,16 +26,22 @@ void Tablero::imprimir(){
   }
 
 void Tablero::eliminar(){
-  for (int i = 0; i < matriz[i]; i++) {
+  for (i = 0; i < 11; i++) {
     delete[] matriz[i];
-    matriz[i] = NULL;
+    matriz[i] ==  NULL;
   }
 
   delete[]matriz;
 
   cout << "Borrando..." << endl;
 }
-void Tablero::movimiento(){
-
-}
+void Tablero::ponerFichas(){
+  for (int i = 0; i < 11; i++) {
+    for (int j = 0; j < 11; i++) {
+      matriz[0][0] == '+';
+      matriz[0][10] == '#';
+      matriz[10][0] == '#';
+      matriz[10][10] == '+';
+    }
+  }
 }

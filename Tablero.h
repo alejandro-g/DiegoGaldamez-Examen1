@@ -8,5 +8,6 @@ class Tablero{
   void eliminar();
   void movimiento();
   void validacion();
+  void ponerFichas();
 };
 #endif
