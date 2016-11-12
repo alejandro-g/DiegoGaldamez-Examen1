@@ -21,7 +21,7 @@ void Tablero::imprimir(){
       for (j = 0; j < 11; j++) {
         cout << "[" << matriz[i][j] << "]";
       }
-      //cout << endl;
+      cout << endl;
     }
   }
 
