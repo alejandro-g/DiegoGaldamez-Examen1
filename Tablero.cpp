@@ -36,7 +36,7 @@ void Tablero::eliminar(){
   cout << "Borrando..." << endl;
 }
 void Tablero::ponerFichas(){
-  for (int i = 0; i < 11; i++) {
+  for (i = 0; i < 11; i++) {
     for (int j = 0; j < 11; i++) {
       matriz[0][0] == '+';
       matriz[0][10] == '#';
