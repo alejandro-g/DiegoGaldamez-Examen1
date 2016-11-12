@@ -16,4 +16,6 @@ int main(){
     cout << "Jugador 2: Ingrese columna en la que desea moverse: ";
     cin >> posicionY;
   }
+
+  return 0;
 }
