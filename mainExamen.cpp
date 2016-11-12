@@ -15,5 +15,6 @@ int main(){
     cin >> posicionX;
     cout << "Jugador 2: Ingrese columna en la que desea moverse: ";
     cin >> posicionY;
+    
   }
 }
