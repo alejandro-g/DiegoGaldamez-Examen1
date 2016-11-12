@@ -28,7 +28,7 @@ void Tablero::imprimir(){
 void Tablero::eliminar(){
   for (i = 0; i < 11; i++) {
     delete[] matriz[i];
-    matriz[i] =  NULL;
+    matriz[i] ==  NULL;
   }
 
   delete[]matriz;
