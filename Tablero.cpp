@@ -37,7 +37,7 @@ void Tablero::eliminar(){
 }
 void Tablero::ponerFichas(){
   for (i = 0; i < 11; i++) {
-    for (int j = 0; j < 11; i++) {
+    for (j = 0; j < 11; i++) {
       matriz[0][0] == '+';
       matriz[0][10] == '#';
       matriz[10][0] == '#';
